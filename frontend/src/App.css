@@ -1,0 +1,38 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color:#000000 ;
+  padding: 40px;
+  color: white;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+}
+
+.btn-refresh {
+  background: #61dafb;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: background 0.3s;
+}
+
+.btn-refresh:hover {
+  background: #21a1f1;
+  color: white;
+}
+
+/* En App.css */
+.logo-img {
+  width: 600px;  /* Ajusta este valor a tu gusto */
+  height: auto;   /* Mantiene la proporción original */
+  margin: 20px 0; /* Opcional: añade espacio arriba y abajo */
+}
